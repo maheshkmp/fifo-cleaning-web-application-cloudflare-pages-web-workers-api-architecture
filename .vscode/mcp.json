@@ -1,0 +1,9 @@
+{
+	"servers": {
+		"Bun": {
+			"url": "https://bun.com/docs/mcp",
+			"type": "http"
+		}
+	},
+	"inputs": []
+}
