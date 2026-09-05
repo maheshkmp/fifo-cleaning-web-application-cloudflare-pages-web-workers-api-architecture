@@ -1,0 +1,8 @@
+var o={},N=(w,b,j)=>(o.__chunk_65064=(f,n,e)=>{"use strict";e.d(n,{y:()=>d});var s=e(69489),r=e(61725),l=e(59e3);let p=(0,l.A)("eye",[["path",{d:"M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0",key:"1nclc0"}],["circle",{cx:"12",cy:"12",r:"3",key:"1v7zrd"}]]),h=(0,l.A)("eye-off",[["path",{d:"M10.733 5.076a10.744 10.744 0 0 1 11.205 6.575 1 1 0 0 1 0 .696 10.747 10.747 0 0 1-1.444 2.49",key:"ct8e1f"}],["path",{d:"M14.084 14.158a3 3 0 0 1-4.242-4.242",key:"151rxh"}],["path",{d:"M17.479 17.499a10.75 10.75 0 0 1-15.417-5.151 1 1 0 0 1 0-.696 10.75 10.75 0 0 1 4.446-5.143",key:"13bj9a"}],["path",{d:"m2 2 20 20",key:"1ooewy"}]]);var y=e(20531),c=e(12131),m=e(47980);let d=r.forwardRef(({className:x,type:k,...a},g)=>{let[t,u]=r.useState(!1),i=a.value===""||a.value===void 0||a.disabled;return(0,s.jsxs)("div",{className:"relative",children:[(0,s.jsx)(c.p,{type:t?"text":"password",className:(0,m.cn)("hide-password-toggle pr-10",x),ref:g,...a}),(0,s.jsxs)(y.$,{type:"button",variant:"ghost",size:"sm",className:"absolute right-0 top-0 h-full px-3 py-2 hover:bg-transparent",onClick:()=>u(v=>!v),disabled:i,children:[t&&!i?(0,s.jsx)(p,{className:"h-4 w-4","aria-hidden":"true"}):(0,s.jsx)(h,{className:"h-4 w-4","aria-hidden":"true"}),(0,s.jsx)("span",{className:"sr-only",children:t?"Hide password":"Show password"})]}),(0,s.jsx)("style",{children:`
+					.hide-password-toggle::-ms-reveal,
+					.hide-password-toggle::-ms-clear {
+						visibility: hidden;
+						pointer-events: none;
+						display: none;
+					}
+				`})]})});d.displayName="PasswordInput"},o);export{N as __getNamedExports};

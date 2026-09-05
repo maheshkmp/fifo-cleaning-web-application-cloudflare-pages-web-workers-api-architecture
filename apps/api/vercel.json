@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "buildCommand": "bun run build:vercel",
+  "outputDirectory": "dist",
+  "installCommand": "bun install && bun run --filter core build && bun run --filter api build:types",
+  "bunVersion": "1.x"
+}

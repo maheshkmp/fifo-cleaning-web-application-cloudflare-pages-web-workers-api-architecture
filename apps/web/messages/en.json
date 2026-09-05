@@ -1,0 +1,330 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact",
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "dashboard": "My Account",
+    "getQuote": "Get a Quote",
+    "callUs": "Call us directly"
+  },
+  "hero": {
+    "headline": "Professional Cleaning Services",
+    "subheadline": "Reliable, thorough cleaning for homes and offices across Sweden.",
+    "eyebrow": "Stockholm · Göteborg · Malmö",
+    "trust": {
+      "insured": "Licensed & insured",
+      "freeQuotes": "Free quotes, no commitment",
+      "sameDay": "Same-day availability",
+      "eco": "Eco-friendly products"
+    },
+    "quoteTitle": "Request a Free Quote",
+    "quoteSubtitle": "Fill in the form and we'll get back to you within one business day.",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "serviceType": "Service Type",
+      "propertySize": "Property Size (sq\u00a0ft)",
+      "propertySizePlaceholder": "e.g. 750",
+      "propertySizeHelp": "Enter the approximate floor area of the property to be cleaned.",
+      "sizeRanges": {
+        "small": "< 500",
+        "medium": "500\u20131\u00a0000",
+        "large": "1\u00a0000\u20132\u00a0000",
+        "xlarge": "2\u00a0000+"
+      },
+      "submitCta": "Request a Free Quote",
+      "submitting": "Sending\u2026",
+      "authNotice": "Please {link} to submit a quote request. Your form values have been saved.",
+      "signIn": "sign in"
+    },
+    "scroll": "scroll"
+  },
+  "whyUs": {
+    "eyebrow": "Why Fifo",
+    "headline": "What sets us apart",
+    "reasons": {
+      "experience": {
+        "title": "10+ Years of Experience",
+        "description": "We have been cleaning homes and offices in Sweden since 2013. Our teams know exactly what Swedish customers expect."
+      },
+      "insured": {
+        "title": "Insured & Background Checked",
+        "description": "Every cleaner is fully insured and has passed a background check. Your home is in safe hands."
+      },
+      "satisfaction": {
+        "title": "Satisfaction Guaranteed",
+        "description": "Not happy with the result? We return within 24 hours to fix it — free of charge, no questions asked."
+      },
+      "eco": {
+        "title": "Eco-Friendly Products",
+        "description": "We use certified, environmentally safe cleaning products. Good for your family, good for the planet."
+      },
+      "pricing": {
+        "title": "Transparent Pricing",
+        "description": "No hidden fees. You get a detailed quote before any work begins. Pay only for what you agreed on."
+      },
+      "scheduling": {
+        "title": "Flexible Scheduling",
+        "description": "Morning, evening, weekends — we fit around your schedule. Recurring bookings always get priority slots."
+      }
+    },
+    "testimonialsEyebrow": "Customer reviews",
+    "testimonialsHeadline": "What our customers say",
+    "testimonials": {
+      "erik": {
+        "quote": "They cleaned our office every week for two years. Reliable, thorough, and always on time. Highly recommended.",
+        "author": "Erik Johansson",
+        "role": "Office Manager, Stockholm"
+      },
+      "sara": {
+        "quote": "The moving clean was impeccable. We got our full deposit back. Worth every krona.",
+        "author": "Sara Nilsson",
+        "role": "Tenant, Göteborg"
+      },
+      "maria": {
+        "quote": "I've tried four different cleaning companies. Fifo is the only one I kept coming back to.",
+        "author": "Maria Lundberg",
+        "role": "Homeowner, Malmö"
+      }
+    }
+  },
+  "homeCta": {
+    "eyebrow": "Get started today",
+    "headline": "Ready for a cleaner space?",
+    "body": "Get a free, no-obligation quote in minutes. We serve Stockholm, Göteborg, Malmö and surrounding areas.",
+    "quoteBtn": "Request a Free Quote",
+    "contactBtn": "Contact Us",
+    "callUs": "Or call us:"
+  },
+  "servicesPreview": {
+    "eyebrow": "Our services",
+    "headline": "What we clean",
+    "learnMore": "Learn more",
+    "viewAll": "View all services",
+    "services": {
+      "house_cleaning": {
+        "title": "House Cleaning",
+        "description": "Regular maintenance cleaning for apartments and houses. Flexible schedules — weekly, bi-weekly, or monthly."
+      },
+      "office_cleaning": {
+        "title": "Office Cleaning",
+        "description": "Professional cleaning for offices and commercial spaces. Evening and weekend slots available."
+      },
+      "moving_cleaning": {
+        "title": "Moving Cleaning",
+        "description": "Deep end-of-tenancy cleaning to secure your deposit. We meet landlord standards every time."
+      },
+      "deep_cleaning": {
+        "title": "Deep Cleaning",
+        "description": "One-time intensive cleaning for neglected spaces, post-renovation, or seasonal refresh."
+      }
+    }
+  },
+  "about": {
+    "eyebrow": "About us",
+    "headline": "Cleaning done right, every single time.",
+    "intro": "Fifo Städfirma was founded in Stockholm in 2013 by a family that believed a clean space should be something everyone could rely on — not a luxury. Over a decade later, we still run every booking the same way: show up, do the job properly, and leave the space better than we found it.",
+    "facts": {
+      "years": { "number": "10+", "label": "Years in business" },
+      "cleans": { "number": "2 000+", "label": "Cleans completed" },
+      "satisfaction": { "number": "98 %", "label": "Customer satisfaction" },
+      "cities": { "number": "4", "label": "Cities served" }
+    },
+    "storyEyebrow": "Our story",
+    "storyTitle": "How we started",
+    "storyBody1": "We started with a single van and three clients in Södermalm. Word spread quickly — not because we marketed aggressively, but because we kept every promise we made. By 2016 we had expanded to Göteborg. By 2019, Malmö. Today our teams cover four cities and over 2 000 completed bookings.",
+    "storyBody2": "We are still family-run. Every cleaner on our team is vetted, trained in-house, and fully insured. We don't use subcontractors. When you book with Fifo, the same people turn up every time.",
+    "missionEyebrow": "Our mission",
+    "missionTitle": "Why we do it",
+    "missionBody1": "To make professional cleaning genuinely accessible — with honest pricing, consistent quality, and the kind of service you'd recommend to your mother.",
+    "missionBody2": "We use certified eco-friendly products across all our services. Not because it's trendy, but because it's better for your family, your colleagues, and the environment we all share.",
+    "valuesEyebrow": "What we stand for",
+    "valuesTitle": "Our values",
+    "values": {
+      "reliability": { "title": "Reliability", "body": "We show up on time, every time. If something isn't right, we come back and fix it — free of charge." },
+      "transparency": { "title": "Transparency", "body": "You see exactly what you pay for before we start. No surprise charges, no hidden fees." },
+      "thoroughness": { "title": "Thoroughness", "body": "We don't cut corners. Every booking follows our standard checklist, verified before we leave." },
+      "respect": { "title": "Respect", "body": "We treat your home or office as if it were our own — with care, discretion, and attention to detail." }
+    },
+    "ctaTitle": "Ready to experience the difference?",
+    "ctaSubtitle": "Get a free quote in minutes — no commitment required.",
+    "ctaButton": "Request a Free Quote"
+  },
+  "services": {
+    "eyebrow": "What we offer",
+    "headline": "Our Services",
+    "intro": "Every service is carried out by insured, trained cleaners using certified eco-friendly products. Prices are fixed — you get a detailed quote before any work begins.",
+    "includedLabel": "Included",
+    "getQuote": "Get a Quote",
+    "ctaTitle": "Not sure which service fits?",
+    "ctaSubtitle": "Get in touch and we'll help you choose the right option.",
+    "ctaQuote": "Request a Free Quote",
+    "ctaContact": "Contact Us",
+    "services": {
+      "house": {
+        "icon": "🏠",
+        "title": "House Cleaning",
+        "tagline": "Your home, freshened regularly.",
+        "description": "Recurring maintenance cleaning for apartments and houses of any size. We clean kitchens, bathrooms, living areas and bedrooms to a consistent standard every visit. Choose weekly, bi-weekly, or monthly — we adapt to your schedule.",
+        "includes": ["Vacuum and mop all floors", "Clean kitchen surfaces, hob, and sink", "Clean and disinfect bathrooms", "Dust furniture and reachable surfaces", "Empty waste bins"],
+        "note": "Ideal for: busy families, professionals, rental properties."
+      },
+      "office": {
+        "icon": "🏢",
+        "title": "Office Cleaning",
+        "tagline": "A clean workspace is a productive workspace.",
+        "description": "Professional cleaning for offices, co-working spaces, and commercial premises. We offer evening and weekend slots so your business day is never interrupted.",
+        "includes": ["Vacuuming and hard floor cleaning", "Desk and surface sanitisation", "Kitchen and break-room cleaning", "Toilet and washroom cleaning", "Waste and recycling collection"],
+        "note": "Ideal for: SMEs, startups, law firms, healthcare clinics."
+      },
+      "moving": {
+        "icon": "📦",
+        "title": "Moving Cleaning",
+        "tagline": "Get your full deposit back.",
+        "description": "A thorough move-in or move-out clean that meets landlord and rental agency standards. We follow a detailed checklist covering every room, including inside appliances and behind fixtures.",
+        "includes": ["Interior of all cupboards and drawers", "Inside oven, fridge, and dishwasher", "Windows (interior) and windowsills", "Bathroom tile grout and sealant", "All light fixtures and switches"],
+        "note": "Ideal for: tenants, landlords, real estate agents."
+      },
+      "deep": {
+        "icon": "✨",
+        "title": "Deep Cleaning",
+        "tagline": "A thorough reset for your space.",
+        "description": "An intensive one-time clean covering every surface, corner, and hard-to-reach area. Perfect as a first visit before switching to regular maintenance cleaning, or as a seasonal refresh.",
+        "includes": ["All standard cleaning tasks, plus:", "Behind and under furniture and appliances", "Inside all cabinets, wardrobes, and drawers", "Skirting boards, door frames, and vents", "Descaling taps, showers, and tiles"],
+        "note": "Ideal for: post-renovation, seasonal clean, first-time customers."
+      }
+    }
+  },
+  "contact": {
+    "eyebrow": "Get in touch",
+    "headline": "Contact Us",
+    "intro": "Have a question, want to book a service, or just not sure where to start? We're here to help.",
+    "phone": { "label": "Phone", "secondary": "Mon–Fri 08:00–18:00 (Stockholm time)" },
+    "email": { "label": "Email", "secondary": "We reply within one business day." },
+    "address": { "label": "Address", "company": "Fifo Städfirma AB", "secondary": "[Address placeholder] · Stockholm, Sweden" },
+    "sameDay": { "title": "Same-day bookings", "body": "Need a clean on short notice? Call us before noon and we'll do our best to accommodate you the same day." },
+    "formTitle": "Send us a message",
+    "formSubtitle": "No sign-in required. We'll reply to your email directly.",
+    "form": {
+      "name": "Your name",
+      "email": "Email address",
+      "message": "Message",
+      "namePlaceholder": "Anna Lindqvist",
+      "emailPlaceholder": "anna@example.se",
+      "messagePlaceholder": "Tell us what you need…",
+      "submit": "Send Message",
+      "submitting": "Sending…",
+      "successTitle": "Message received",
+      "successBody": "We'll reply to your email within one business day."
+    },
+    "validation": {
+      "nameRequired": "Name is required",
+      "emailRequired": "A valid email is required",
+      "messageMin": "Message must be at least 10 characters"
+    }
+  },
+  "footer": {
+    "tagline": "Professional cleaning services you can trust.",
+    "company": "Company",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyright": "© {year} Fifo Städfirma AB. All rights reserved.",
+    "cities": "Stockholm · Göteborg · Malmö"
+  },
+  "common": {
+    "loading": "Loading…",
+    "error": "Something went wrong. Please try again.",
+    "success": "Done!"
+  },
+  "admin": {
+    "dashboard": "Dashboard",
+    "signedInAs": "Signed in as",
+    "tabs": {
+      "quotes": "Quote Requests",
+      "users": "Users"
+    },
+    "stats": {
+      "pending": "Pending",
+      "thisWeek": "This week",
+      "pendingRequests": "{count} pending",
+      "thisWeekRequests": "{count} this week"
+    },
+    "filters": {
+      "allStatuses": "All statuses",
+      "allServices": "All services",
+      "sortDateDesc": "Newest first",
+      "sortDateAsc": "Oldest first",
+      "label": "Filter",
+      "sortLabel": "Sort"
+    },
+    "quotes": {
+      "empty": "No quote requests yet.",
+      "emptyFiltered": "No requests match your filters.",
+      "total": "{count} request",
+      "totalPlural": "{count} requests",
+      "cols": {
+        "date": "Date",
+        "requester": "Requester",
+        "service": "Service",
+        "size": "Size",
+        "status": "Status",
+        "quoted": "Quoted"
+      },
+      "sendQuote": "Send Quote",
+      "editQuote": "Edit Quote",
+      "quotedOn": "Quoted on {date}",
+      "quotedAmount": "Quoted amount",
+      "noQuoteYet": "No quote sent yet",
+      "viewDetail": "View details"
+    },
+    "detail": {
+      "back": "← Back to requests",
+      "title": "Quote Request",
+      "notFound": "Request not found.",
+      "requesterInfo": "Requester",
+      "serviceInfo": "Service details",
+      "propertySize": "Property size",
+      "sqft": "{size} sq ft",
+      "customerMessage": "Customer message",
+      "noMessage": "No message provided.",
+      "statusSection": "Status",
+      "quoteSection": "Quote details",
+      "quotedOn": "Quoted on {date}",
+      "notQuotedYet": "No quote attached yet.",
+      "requestedOn": "Requested on {date}"
+    },
+    "users": {
+      "empty": "No users yet.",
+      "total": "{count} user",
+      "totalPlural": "{count} users"
+    },
+    "sendQuoteDialog": {
+      "title": "Send Quote",
+      "editTitle": "Update Quote",
+      "description": "Enter the quoted price and an optional message for the customer.",
+      "amountLabel": "Amount (SEK)",
+      "amountPlaceholder": "e.g. 1500",
+      "amountHelp": "Enter the full price in whole SEK (e.g. 1 500). Decimals are not supported.",
+      "messageLabel": "Message to customer (optional)",
+      "messagePlaceholder": "Any notes or details about the quote…",
+      "submit": "Send Quote",
+      "update": "Update Quote",
+      "submitting": "Sending…",
+      "cancel": "Cancel",
+      "successSent": "Quote sent to customer.",
+      "successUpdated": "Quote updated.",
+      "errorFailed": "Failed to send quote. Please try again.",
+      "validation": {
+        "amountRequired": "Amount is required",
+        "amountPositive": "Amount must be greater than 0",
+        "amountInteger": "Amount must be a whole number",
+        "messageMax": "Message must be 2 000 characters or fewer"
+      }
+    }
+  }
+}

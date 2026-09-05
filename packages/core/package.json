@@ -1,0 +1,79 @@
+{
+  "name": "core",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "exports": {
+    "./auth/config": {
+      "import": "./dist/src/auth/config.js",
+      "types": "./src/auth/config.ts"
+    },
+    "./auth/setup": {
+      "import": "./dist/src/auth/setup.js",
+      "types": "./src/auth/setup.ts"
+    },
+    "./auth/helpers": {
+      "import": "./dist/src/auth/helpers.js",
+      "types": "./src/auth/helpers.ts"
+    },
+    "./database": {
+      "import": "./dist/src/database/index.js",
+      "types": "./src/database/index.ts"
+    },
+    "./database/schema": {
+      "import": "./dist/src/database/schema/index.js",
+      "types": "./src/database/schema/index.ts"
+    },
+    "./database/queries": {
+      "import": "./dist/src/database/queries/index.js",
+      "types": "./src/database/queries/index.ts"
+    },
+    "./rpc": {
+      "import": "./dist/src/rpc/index.js",
+      "types": "./src/rpc/index.ts"
+    },
+    "./zod": {
+      "import": "./dist/src/zod/index.js",
+      "types": "./src/zod/index.ts"
+    },
+    "./email/resend": {
+      "import": "./dist/src/email/resend.js",
+      "types": "./src/email/resend.ts"
+    },
+    "./email/templates": {
+      "import": "./dist/src/email/templates.js",
+      "types": "./src/email/templates.ts"
+    },
+    "./types": {
+      "types": "./types/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "bun run build.ts",
+    "db:generate": "bunx drizzle-kit generate",
+    "db:push": "bunx drizzle-kit push",
+    "db:pull": "bunx drizzle-kit pull ",
+    "db:migrate": "bun src/database/migrate.ts",
+    "db:studio": "drizzle-kit studio",
+    "auth:generate": "bunx @better-auth/cli@latest generate --config ./src/auth/config.ts --output ./src/database/schema/auth.schema.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/ws": "^8.18.1",
+    "drizzle-kit": "^0.31.8",
+    "api": "workspace:*"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^1.0.2",
+    "better-auth": "catalog:",
+    "drizzle-orm": "^0.45.0",
+    "hono": "catalog:",
+    "pg": "^8.16.3",
+    "resend": "^6.9.3",
+    "ws": "^8.18.3",
+    "zod": "^4.1.13"
+  }
+}

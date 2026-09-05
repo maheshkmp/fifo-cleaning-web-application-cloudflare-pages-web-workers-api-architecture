@@ -1,0 +1,16 @@
+$ bun run builders/build-types.ts
+📦 Building type exports for RPC...
+
+📝 Generated tsconfig.types.json
+📝 Generating TypeScript declaration files...
+✓ Declaration files generated successfully
+📝 Replacing path aliases with relative paths...
+✓ Path aliases replaced successfully
+📦 Moving types to packages/core/types...
+✓ Types moved successfully
+✓ Output directory: /home/mahesh/Desktop/Projects_001/Ghostcod/nextjs-multiworker/packages/core/types
+
+🎉 Type export build completed successfully!
+
+📋 To use in web project:
+   Import: import type { Router } from 'core/types'

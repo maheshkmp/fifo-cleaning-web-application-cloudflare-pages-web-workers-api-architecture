@@ -1,0 +1,12 @@
+<svg width="192" height="192" viewBox="0 0 192 192" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="192" height="192" rx="40" fill="#0D9488"/>
+  <!-- Sparkle / Cleaning shine top-right -->
+  <path d="M142 42C142 50.8366 134.837 58 126 58C134.837 58 142 65.1634 142 74C142 65.1634 149.163 58 158 58C149.163 58 142 50.8366 142 42Z" fill="#F0FDFA"/>
+  <path d="M164 34C164 37.3137 161.314 40 158 40C161.314 40 164 42.6863 164 46C164 42.6863 166.686 40 170 40C166.686 40 164 37.3137 164 34Z" fill="#CCFBF1"/>
+  
+  <!-- Sparkle small bottom-left -->
+  <path d="M42 128C42 132.418 38.4183 136 34 136C38.4183 136 42 139.582 42 144C42 139.582 45.5817 136 50 136C45.5817 136 42 132.418 42 128Z" fill="#CCFBF1"/>
+
+  <!-- Clean Sparkle / Star emblem centered -->
+  <path d="M96 52L106.8 85.2L140 96L106.8 106.8L96 140L85.2 106.8L52 96L85.2 85.2L96 52Z" fill="#FFFFFF"/>
+</svg>

@@ -1,0 +1,330 @@
+{
+  "nav": {
+    "home": "Hem",
+    "about": "Om oss",
+    "services": "Tjänster",
+    "contact": "Kontakt",
+    "signIn": "Logga in",
+    "signUp": "Registrera",
+    "dashboard": "Mitt konto",
+    "getQuote": "Få en offert",
+    "callUs": "Ring oss direkt"
+  },
+  "hero": {
+    "headline": "Professionell städservice",
+    "subheadline": "Pålitlig och noggrann städning för hem och kontor i hela Sverige.",
+    "eyebrow": "Stockholm · Göteborg · Malmö",
+    "trust": {
+      "insured": "Licensierad & försäkrad",
+      "freeQuotes": "Gratis offert, ingen bindning",
+      "sameDay": "Samma dag-tillgänglighet",
+      "eco": "Miljövänliga produkter"
+    },
+    "quoteTitle": "Begär en gratis offert",
+    "quoteSubtitle": "Fyll i formuläret så återkommer vi inom en arbetsdag.",
+    "form": {
+      "name": "Fullständigt namn",
+      "email": "E-postadress",
+      "phone": "Telefonnummer",
+      "serviceType": "Typ av städning",
+      "propertySize": "Bostadens storlek (kvm)",
+      "propertySizePlaceholder": "t.ex. 75",
+      "propertySizeHelp": "Ange den ungefärliga golvytan för fastigheten som ska städas.",
+      "sizeRanges": {
+        "small": "< 50\u00a0kvm",
+        "medium": "50\u2013100\u00a0kvm",
+        "large": "100\u2013200\u00a0kvm",
+        "xlarge": "200+\u00a0kvm"
+      },
+      "submitCta": "Begär en gratis offert",
+      "submitting": "Skickar\u2026",
+      "authNotice": "Vänligen {link} för att skicka in en offertförfrågan. Dina formulärvärden har sparats.",
+      "signIn": "logga in"
+    },
+    "scroll": "scrolla"
+  },
+  "whyUs": {
+    "eyebrow": "Varför Fifo",
+    "headline": "Vad som skiljer oss åt",
+    "reasons": {
+      "experience": {
+        "title": "10+ års erfarenhet",
+        "description": "Vi har städat hem och kontor i Sverige sedan 2013. Våra team vet exakt vad svenska kunder förväntar sig."
+      },
+      "insured": {
+        "title": "Försäkrade och bakgrundskontrollerade",
+        "description": "Varje städare är fullt försäkrad och har genomgått en bakgrundskontroll. Ditt hem är i trygga händer."
+      },
+      "satisfaction": {
+        "title": "Nöjdhetsgaranti",
+        "description": "Inte nöjd med resultatet? Vi återvänder inom 24 timmar för att åtgärda det — utan kostnad, inga frågor."
+      },
+      "eco": {
+        "title": "Miljövänliga produkter",
+        "description": "Vi använder certifierade, miljövänliga rengöringsprodukter. Bra för din familj, bra för planeten."
+      },
+      "pricing": {
+        "title": "Transparent prissättning",
+        "description": "Inga dolda avgifter. Du får en detaljerad offert innan arbetet påbörjas. Betala bara för det du kommit överens om."
+      },
+      "scheduling": {
+        "title": "Flexibel bokning",
+        "description": "Morgon, kväll, helger — vi anpassar oss efter ditt schema. Återkommande bokningar får alltid prioritet."
+      }
+    },
+    "testimonialsEyebrow": "Kundrecensioner",
+    "testimonialsHeadline": "Vad våra kunder säger",
+    "testimonials": {
+      "erik": {
+        "quote": "De städade vårt kontor varje vecka i två år. Pålitliga, noggranna och alltid i tid. Varmt rekommenderade.",
+        "author": "Erik Johansson",
+        "role": "Kontorschef, Stockholm"
+      },
+      "sara": {
+        "quote": "Flyttstädningen var makalös. Vi fick tillbaka hela depositionen. Värt varje krona.",
+        "author": "Sara Nilsson",
+        "role": "Hyresgäst, Göteborg"
+      },
+      "maria": {
+        "quote": "Jag har testat fyra städföretag. Fifo är det enda jag fortsätter anlita.",
+        "author": "Maria Lundberg",
+        "role": "Husägare, Malmö"
+      }
+    }
+  },
+  "homeCta": {
+    "eyebrow": "Kom igång idag",
+    "headline": "Redo för ett renare utrymme?",
+    "body": "Få en gratis offert på några minuter. Vi betjänar Stockholm, Göteborg, Malmö och omgivande områden.",
+    "quoteBtn": "Begär en gratis offert",
+    "contactBtn": "Kontakta oss",
+    "callUs": "Eller ring oss:"
+  },
+  "servicesPreview": {
+    "eyebrow": "Våra tjänster",
+    "headline": "Vad vi städar",
+    "learnMore": "Läs mer",
+    "viewAll": "Visa alla tjänster",
+    "services": {
+      "house_cleaning": {
+        "title": "Hemstädning",
+        "description": "Regelbunden underhållsstädning för lägenheter och hus. Flexibla schema — varje vecka, varannan vecka eller månadsvis."
+      },
+      "office_cleaning": {
+        "title": "Kontorsstädning",
+        "description": "Professionell städning för kontor och kommersiella lokaler. Kvälls- och helgpass tillgängliga."
+      },
+      "moving_cleaning": {
+        "title": "Flyttstädning",
+        "description": "Djupgående slutstädning för att säkra din deposition. Vi uppfyller hyresvärdens krav varje gång."
+      },
+      "deep_cleaning": {
+        "title": "Storstädning",
+        "description": "Engångsstädning för försummade lokaler, efter renovering eller säsongsmässig uppfräschning."
+      }
+    }
+  },
+  "about": {
+    "eyebrow": "Om oss",
+    "headline": "Städning gjort rätt, varje gång.",
+    "intro": "Fifo Städfirma grundades i Stockholm 2013 av en familj som trodde att ett rent hem borde vara något alla kan lita på — inte en lyx. Mer än ett decennium senare driver vi fortfarande varje bokning på samma sätt: vi dyker upp, utför jobbet ordentligt och lämnar utrymmet bättre än vi hittade det.",
+    "facts": {
+      "years": { "number": "10+", "label": "År i branschen" },
+      "cleans": { "number": "2 000+", "label": "Städningar utförda" },
+      "satisfaction": { "number": "98 %", "label": "Kundnöjdhet" },
+      "cities": { "number": "4", "label": "Städer vi servar" }
+    },
+    "storyEyebrow": "Vår historia",
+    "storyTitle": "Hur vi startade",
+    "storyBody1": "Vi startade med en enda skåpbil och tre kunder i Södermalm. Ryktet spred sig snabbt — inte för att vi marknadsförde oss aggressivt, utan för att vi höll varje löfte vi gav. År 2016 expanderade vi till Göteborg. År 2019, Malmö. Idag täcker våra team fyra städer och över 2 000 utförda bokningar.",
+    "storyBody2": "Vi är fortfarande familjeägt. Varje städare i vårt team är kontrollerad, internt utbildad och fullt försäkrad. Vi använder inga underentreprenörer. När du bokar med Fifo, kommer samma personer varje gång.",
+    "missionEyebrow": "Vårt uppdrag",
+    "missionTitle": "Varför vi gör det",
+    "missionBody1": "Att göra professionell städning verkligt tillgänglig — med ärliga priser, konsekvent kvalitet och den typ av service du skulle rekommendera till din mamma.",
+    "missionBody2": "Vi använder certifierade miljövänliga produkter i alla våra tjänster. Inte för att det är trendigt, utan för att det är bättre för din familj, dina kollegor och miljön vi alla delar.",
+    "valuesEyebrow": "Vad vi står för",
+    "valuesTitle": "Våra värderingar",
+    "values": {
+      "reliability": { "title": "Pålitlighet", "body": "Vi dyker upp i tid, varje gång. Om något inte är rätt, kommer vi tillbaka och fixar det — kostnadsfritt." },
+      "transparency": { "title": "Transparens", "body": "Du ser exakt vad du betalar för innan vi börjar. Inga överraskningskostnader, inga dolda avgifter." },
+      "thoroughness": { "title": "Noggrannhet", "body": "Vi tar inga genvägar. Varje bokning följer vår standardchecklista, verifierad innan vi lämnar." },
+      "respect": { "title": "Respekt", "body": "Vi behandlar ditt hem eller kontor som om det vore vårt eget — med omsorg, diskretion och uppmärksamhet på detaljer." }
+    },
+    "ctaTitle": "Redo att uppleva skillnaden?",
+    "ctaSubtitle": "Få en gratis offert på några minuter — ingen bindning krävs.",
+    "ctaButton": "Begär en gratis offert"
+  },
+  "services": {
+    "eyebrow": "Vad vi erbjuder",
+    "headline": "Våra tjänster",
+    "intro": "Varje tjänst utförs av försäkrade, utbildade städare med certifierade miljövänliga produkter. Priserna är fasta — du får en detaljerad offert innan arbetet börjar.",
+    "includedLabel": "Ingår",
+    "getQuote": "Få en offert",
+    "ctaTitle": "Osäker på vilken tjänst som passar?",
+    "ctaSubtitle": "Hör av dig så hjälper vi dig att välja rätt alternativ.",
+    "ctaQuote": "Begär en gratis offert",
+    "ctaContact": "Kontakta oss",
+    "services": {
+      "house": {
+        "icon": "🏠",
+        "title": "Hemstädning",
+        "tagline": "Ditt hem, fräschat regelbundet.",
+        "description": "Regelbunden städning för lägenheter och hus i alla storlekar. Vi städar kök, badrum, vardagsrum och sovrum efter en konsekvent standard vid varje besök. Välj veckovis, varannan vecka eller månadsvis — vi anpassar oss efter ditt schema.",
+        "includes": ["Dammsugning och moppning av alla golv", "Rengöring av köksbänkar, spis och diskho", "Rengöring och desinfektion av badrum", "Dammtorkning av möbler och nåbara ytor", "Tömning av sopkorgar"],
+        "note": "Passar för: stressade familjer, yrkesverksamma, hyresfastigheter."
+      },
+      "office": {
+        "icon": "🏢",
+        "title": "Kontorsstädning",
+        "tagline": "En ren arbetsplats är en produktiv arbetsplats.",
+        "description": "Professionell städning för kontor, co-working-ytor och kommersiella lokaler. Vi erbjuder kvälls- och helgplatser så att din arbetsdag aldrig avbryts.",
+        "includes": ["Dammsugning och hårdgolvstädning", "Desinfektion av skrivbord och ytor", "Städning av kök och fikarum", "Rengöring av toaletter och tvättrum", "Avfalls- och återvinningshämtning"],
+        "note": "Passar för: SMEs, startups, advokatbyråer, vårdkliniker."
+      },
+      "moving": {
+        "icon": "📦",
+        "title": "Flyttstädning",
+        "tagline": "Få tillbaka din fulla deposition.",
+        "description": "En grundlig flytt-in eller flytt-ut städning som uppfyller hyresvärd- och uthyrningsagenturstandarder. Vi följer en detaljerad checklista som täcker varje rum, inklusive insidan av apparater och bakom armaturer.",
+        "includes": ["Insidan av alla skåp och lådor", "Insidan av ugn, kylskåp och diskmaskin", "Fönster (insida) och fönsterbrädor", "Badrumskakelfogar och tätning", "Alla lampor och strömbrytare"],
+        "note": "Passar för: hyresgäster, hyresvärdar, fastighetsmäklare."
+      },
+      "deep": {
+        "icon": "✨",
+        "title": "Djupstädning",
+        "tagline": "En grundlig återställning av ditt utrymme.",
+        "description": "En intensiv engångsstädning som täcker varje yta, hörn och svårtillgängligt område. Perfekt som ett första besök innan du byter till regelbunden städning, eller som en säsongsrengöring.",
+        "includes": ["Alla standardstädningsuppgifter, plus:", "Bakom och under möbler och apparater", "Inuti alla skåp, garderober och lådor", "Sockelbräden, dörrkarmar och ventiler", "Avkalkning av kranar, duschar och kakel"],
+        "note": "Passar för: efter renovering, säsongsstädning, förstagångskunder."
+      }
+    }
+  },
+  "contact": {
+    "eyebrow": "Kontakta oss",
+    "headline": "Kontakt",
+    "intro": "Har du en fråga, vill boka en tjänst eller vet du bara inte var du ska börja? Vi finns här för att hjälpa.",
+    "phone": { "label": "Telefon", "secondary": "Mån–Fre 08:00–18:00 (Stockholmstid)" },
+    "email": { "label": "E-post", "secondary": "Vi svarar inom en arbetsdag." },
+    "address": { "label": "Adress", "company": "Fifo Städfirma AB", "secondary": "[Adressplatshållare] · Stockholm, Sverige" },
+    "sameDay": { "title": "Samma dag-bokningar", "body": "Behöver du städning med kort varsel? Ring oss före lunch och vi gör vårt bästa för att ta emot dig samma dag." },
+    "formTitle": "Skicka ett meddelande",
+    "formSubtitle": "Ingen inloggning krävs. Vi svarar direkt till din e-post.",
+    "form": {
+      "name": "Ditt namn",
+      "email": "E-postadress",
+      "message": "Meddelande",
+      "namePlaceholder": "Anna Lindqvist",
+      "emailPlaceholder": "anna@example.se",
+      "messagePlaceholder": "Berätta vad du behöver…",
+      "submit": "Skicka meddelande",
+      "submitting": "Skickar…",
+      "successTitle": "Meddelande mottaget",
+      "successBody": "Vi svarar till din e-post inom en arbetsdag."
+    },
+    "validation": {
+      "nameRequired": "Namn krävs",
+      "emailRequired": "En giltig e-postadress krävs",
+      "messageMin": "Meddelandet måste vara minst 10 tecken"
+    }
+  },
+  "footer": {
+    "tagline": "Professionell städservice du kan lita på.",
+    "company": "Företag",
+    "legal": "Juridiskt",
+    "privacy": "Integritetspolicy",
+    "terms": "Användarvillkor",
+    "copyright": "© {year} Fifo Städfirma AB. Alla rättigheter förbehållna.",
+    "cities": "Stockholm · Göteborg · Malmö"
+  },
+  "common": {
+    "loading": "Laddar…",
+    "error": "Något gick fel. Försök igen.",
+    "success": "Klart!"
+  },
+  "admin": {
+    "dashboard": "Kontrollpanel",
+    "signedInAs": "Inloggad som",
+    "tabs": {
+      "quotes": "Offertförfrågningar",
+      "users": "Användare"
+    },
+    "stats": {
+      "pending": "Väntande",
+      "thisWeek": "Denna vecka",
+      "pendingRequests": "{count} väntande",
+      "thisWeekRequests": "{count} denna vecka"
+    },
+    "filters": {
+      "allStatuses": "Alla statusar",
+      "allServices": "Alla tjänster",
+      "sortDateDesc": "Nyast först",
+      "sortDateAsc": "Äldst först",
+      "label": "Filtrera",
+      "sortLabel": "Sortera"
+    },
+    "quotes": {
+      "empty": "Inga offertförfrågningar ännu.",
+      "emptyFiltered": "Inga förfrågningar matchar dina filter.",
+      "total": "{count} förfrågan",
+      "totalPlural": "{count} förfrågningar",
+      "cols": {
+        "date": "Datum",
+        "requester": "Begärande",
+        "service": "Tjänst",
+        "size": "Storlek",
+        "status": "Status",
+        "quoted": "Offerterad"
+      },
+      "sendQuote": "Skicka offert",
+      "editQuote": "Redigera offert",
+      "quotedOn": "Offererad den {date}",
+      "quotedAmount": "Offerterat belopp",
+      "noQuoteYet": "Ingen offert skickad ännu",
+      "viewDetail": "Visa detaljer"
+    },
+    "detail": {
+      "back": "\u2190 Tillbaka till förfrågningar",
+      "title": "Offertförfrågan",
+      "notFound": "Förfrågan hittades inte.",
+      "requesterInfo": "Sökande",
+      "serviceInfo": "Tjänstdetaljer",
+      "propertySize": "Fastighetsstorlek",
+      "sqft": "{size}\u00a0kvm",
+      "customerMessage": "Kundens meddelande",
+      "noMessage": "Inget meddelande angavs.",
+      "statusSection": "Status",
+      "quoteSection": "Offertdetaljer",
+      "quotedOn": "Offererad den {date}",
+      "notQuotedYet": "Ingen offert bilagd ännu.",
+      "requestedOn": "Begärd den {date}"
+    },
+    "users": {
+      "empty": "Inga användare ännu.",
+      "total": "{count} användare",
+      "totalPlural": "{count} användare"
+    },
+    "sendQuoteDialog": {
+      "title": "Skicka offert",
+      "editTitle": "Uppdatera offert",
+      "description": "Ange offererat pris och ett valfritt meddelande till kunden.",
+      "amountLabel": "Belopp (SEK)",
+      "amountPlaceholder": "t.ex. 1500",
+      "amountHelp": "Ange hela priset i hela kronor (t.ex. 1\u00a0500). Decimaler stöds inte.",
+      "messageLabel": "Meddelande till kund (valfritt)",
+      "messagePlaceholder": "Anteckningar eller detaljer om offerten\u2026",
+      "submit": "Skicka offert",
+      "update": "Uppdatera offert",
+      "submitting": "Skickar\u2026",
+      "cancel": "Avbryt",
+      "successSent": "Offert skickad till kunden.",
+      "successUpdated": "Offert uppdaterad.",
+      "errorFailed": "Misslyckades med att skicka offert. Försök igen.",
+      "validation": {
+        "amountRequired": "Belopp krävs",
+        "amountPositive": "Beloppet måste vara större än 0",
+        "amountInteger": "Beloppet måste vara ett heltal",
+        "messageMax": "Meddelandet måste vara högst 2\u00a0000 tecken"
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "bunplate",
+  "type": "module",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*",
+      "apps/*"
+    ],
+    "catalog": {
+      "better-auth": "^1.4.18",
+      "hono": "^4.10.7"
+    }
+  },
+  "scripts": {
+    "vercel-build": "next build",
+    "dev:api": "bun run --filter api dev",
+    "dev:web": "bun run --filter web dev",
+    "db:generate": "bun run --filter core db:generate",
+    "db:push": "bun run --filter core db:push",
+    "db:migrate": "bun run --filter core db:migrate",
+    "db:studio": "bun run --filter core db:studio"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "core": "workspace:*",
+    "next": "16.0.8"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}

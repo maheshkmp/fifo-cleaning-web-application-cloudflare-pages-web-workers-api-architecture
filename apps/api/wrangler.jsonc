@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "fifo-api",
+  "main": "index.ts",
+  "compatibility_date": "2024-09-23",
+  "compatibility_flags": ["nodejs_compat"],
+  "alias": {
+    "pg-native": "./dummy-pg-native.js"
+  },
+  "vars": {
+    "NODE_ENV": "production"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "outDir": "../dist/types",
+    "skipLibCheck": true,
+    "noEmit": false,
+    "composite": false,
+    "incremental": false
+  },
+  "include": [
+    "../src/**/*.ts"
+  ],
+  "exclude": [
+    "../node_modules",
+    "../dist"
+  ]
+}
