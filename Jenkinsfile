@@ -23,7 +23,7 @@ pipeline {
 
         stage('Build API') {
             steps {
-                sh 'cd apps/api && bun run build'
+                sh 'cd apps/api && bun run build:types'
             }
         }
     }

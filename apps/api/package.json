@@ -9,7 +9,7 @@
     }
   },
   "scripts": {
-    "dev": "bun run --hot dev.ts",
+    "verceldev": "bun run --hot dev.ts",
     "build:types": "bun run builders/build-types.ts",
     "build:vercel": "bun run builders/build-vercel.ts && bun run build:types"
   },
