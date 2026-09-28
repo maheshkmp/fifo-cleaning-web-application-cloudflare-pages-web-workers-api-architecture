@@ -8,6 +8,13 @@ pipeline {
             }
         }
 
+        stage('Build Core') {
+            steps {
+                sh 'cd packages/core && bun run build'
+            }
+        }
+
+
         stage('Build Web') {
             steps {
                 sh 'cd apps/web && bun run build'
