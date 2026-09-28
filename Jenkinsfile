@@ -2,18 +2,22 @@ pipeline {
     agent any
 
     stages {
-        stage('Check Tools') {
+        stage('Install Dependencies') {
             steps {
-                sh 'git --version'
-                sh 'java -version'
-                sh 'docker --version'
-                sh 'bun --version'
+                sh 'bun install --frozen-lockfile'
             }
         }
-        stage('Checkout') {
-            steps{
-                checkout scm
+
+        stage('Build Web') {
+            steps {
+                sh 'cd apps/web && bun run build'
             }
         }
-    }   
+
+        stage('Build API') {
+            steps {
+                sh 'cd apps/api && bun run build'
+            }
+        }
+    }
 }
