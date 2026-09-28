@@ -8,6 +8,12 @@ pipeline {
             }
         }
 
+        stage("Run Tests") {
+            steps {
+                sh 'bun test'
+            }
+        }
+
         stage('Build Core') {
             steps {
                 sh 'cd packages/core && bun run build'
