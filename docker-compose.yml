@@ -1,0 +1,28 @@
+services:
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: Admin123
+      POSTGRES_DB: fifo
+    volumes:
+      - fifo-postgres-data:/var/lib/postgresql/data
+
+  api:
+    image: fifo-api:local
+    ports:
+      - "4000:4000"
+    environment:
+     DATABASE_URL: postgresql://postgres:Admin123@postgres:5432/fifo
+
+  web:
+    image: fifo-web:local
+    ports:
+      - "3000:3000"
+    environment:
+      NEXT_PUBLIC_BACKEND_URL: http://api:4000
+    depends_on:
+      - api
+
+volumes:
+  fifo-postgres-data:
