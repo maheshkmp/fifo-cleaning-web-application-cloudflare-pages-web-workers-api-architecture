@@ -2,35 +2,29 @@ pipeline {
     agent any
 
     stages {
-        stage('Install Dependencies') {
+
+        stage('Build API Docker Image') {
             steps {
-                sh 'bun install --frozen-lockfile'
+                sh '''
+                    docker build \
+                      -f apps/api/Dockerfile \
+                      -t fifo-api:jenkins \
+                      .
+                '''
             }
         }
 
-        stage("Run Tests") {
+        stage('Build Web Docker Image') {
             steps {
-                sh 'bun test'
+                sh '''
+                    docker build \
+                      --build-arg NEXT_PUBLIC_BACKEND_URL=http://api:4000 \
+                      -f apps/web/Dockerfile \
+                      -t fifo-web:jenkins \
+                      .
+                '''
             }
         }
 
-        stage('Build Core') {
-            steps {
-                sh 'cd packages/core && bun run build'
-            }
-        }
-
-
-        stage('Build Web') {
-            steps {
-                sh 'cd apps/web && bun run build'
-            }
-        }
-
-        stage('Build API') {
-            steps {
-                sh 'cd apps/api && bun run build:vercel'
-            }
-        }
     }
 }
