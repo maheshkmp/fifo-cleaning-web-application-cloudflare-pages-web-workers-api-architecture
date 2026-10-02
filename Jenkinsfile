@@ -56,6 +56,15 @@ pipeline {
             }
         }
 
+        stage('Push Images to GHCR') {
+            steps {
+                sh '''
+                    docker push ghcr.io/maheshkmp/fifo-api:latest
+                    docker push ghcr.io/maheshkmp/fifo-web:latest
+                '''
+            }
+        }
+
         stage('Run Application') {
             steps {
                 sh '''
