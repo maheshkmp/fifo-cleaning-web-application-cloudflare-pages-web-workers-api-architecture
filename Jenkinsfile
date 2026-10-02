@@ -3,6 +3,19 @@ pipeline {
 
     stages {
 
+        stage('Get Git Commit') {
+            steps {
+                script {
+                    env.IMAGE_TAG = sh(
+                        script: 'git rev-parse --short HEAD',
+                        returnStdout: true
+                    ).trim()
+
+                    echo "Docker image tag: ${env.IMAGE_TAG}"
+                }
+            }
+        }
+
         stage('Build API Docker Image') {
             steps {
                 sh '''
