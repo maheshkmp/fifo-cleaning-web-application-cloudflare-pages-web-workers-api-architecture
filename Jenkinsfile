@@ -81,8 +81,8 @@ pipeline {
         stage('Run Application') {
             steps {
                 sh '''
-                    export API_IMAGE=ghcr.io/maheshkmp/fifo-api:latest
-                    export WEB_IMAGE=ghcr.io/maheshkmp/fifo-web:latest
+                    export API_IMAGE=ghcr.io/maheshkmp/fifo-api:${IMAGE_TAG}
+                    export WEB_IMAGE=ghcr.io/maheshkmp/fifo-web:${IMAGE_TAG}
 
                     docker compose pull
                     docker compose up -d
