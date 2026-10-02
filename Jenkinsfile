@@ -28,16 +28,16 @@ pipeline {
         }
         
         stage('Tag Images for GHCR') {
-    steps {
-        sh '''
-            docker tag fifo-api:jenkins \
-                ghcr.io/maheshkmp/fifo-api:latest
+            steps {
+                sh '''
+                    docker tag fifo-api:jenkins \
+                        ghcr.io/maheshkmp/fifo-api:latest
 
-            docker tag fifo-web:jenkins \
-                ghcr.io/maheshkmp/fifo-web:latest
-        '''
+                    docker tag fifo-web:jenkins \
+                        ghcr.io/maheshkmp/fifo-web:latest
+                '''
     }
-
+        }
 stage('Test GHCR Login') {
             steps {
                 withCredentials([
