@@ -49,5 +49,23 @@ pipeline {
                 '''
             }
         }
+
+        stage('Test GHCR Login') {
+            steps {
+                withCredentials([
+                    usernamePassword(
+                        credentialsId: 'ghcr-credentials',
+                        usernameVariable: 'GHCR_USER',
+                        passwordVariable: 'GHCR_TOKEN'
+                    )
+                ]) {
+                    sh '''
+                        echo "$GHCR_TOKEN" | docker login ghcr.io \
+                            -u "$GHCR_USER" \
+                            --password-stdin
+                    '''
+                }
+            }
+        }
     }
 }
