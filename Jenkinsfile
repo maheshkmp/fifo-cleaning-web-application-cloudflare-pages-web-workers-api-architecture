@@ -93,6 +93,9 @@ pipeline {
         stage('Health Check') {
             steps {
                 sh '''
+                    echo "Waiting for application to start..."
+                    sleep 10
+
                     echo "Checking web..."
                     curl -f http://localhost:3000
 
