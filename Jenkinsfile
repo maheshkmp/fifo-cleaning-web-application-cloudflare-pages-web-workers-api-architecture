@@ -26,5 +26,15 @@ pipeline {
             }
         }
 
+        stage('Run Application'){
+            steps{
+                sh '''
+                    API_IMAGE=fifo-api:jenkins \
+                    WEB_IMAGE=fifo-web:jenkins \
+                    docker compose up -d
+                '''
+            }
+        }
+
     }
 }
