@@ -68,8 +68,10 @@ pipeline {
         stage('Run Application') {
             steps {
                 sh '''
-                    API_IMAGE=fifo-api:jenkins \
-                    WEB_IMAGE=fifo-web:jenkins \
+                    export API_IMAGE=ghcr.io/maheshkmp/fifo-api:latest
+                    export WEB_IMAGE=ghcr.io/maheshkmp/fifo-web:latest
+
+                    docker compose pull
                     docker compose up -d
                 '''
             }
