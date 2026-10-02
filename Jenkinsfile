@@ -36,5 +36,18 @@ pipeline {
             }
         }
 
+        stage('Health Check') {
+            steps {
+                sh '''
+                    echo "Checking web..."
+                    curl -f http://localhost:3000
+
+                    echo "Checking API..."
+                    curl -f http://localhost:4000/api/reference
+
+                    echo "Health checks passed."
+                '''
+            }
+        }
     }
 }
