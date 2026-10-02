@@ -42,11 +42,11 @@ pipeline {
         stage('Tag Images for GHCR') {
             steps {
                 sh '''
-                    docker tag fifo-api:jenkins \
-                        ghcr.io/maheshkmp/fifo-api:latest
+                    docker tag fifo-api:${IMAGE_TAG} \
+                        ghcr.io/maheshkmp/fifo-api:${IMAGE_TAG}
 
-                    docker tag fifo-web:jenkins \
-                        ghcr.io/maheshkmp/fifo-web:latest
+                    docker tag fifo-web:${IMAGE_TAG} \
+                        ghcr.io/maheshkmp/fifo-web:${IMAGE_TAG}
                 '''
             }
         }
