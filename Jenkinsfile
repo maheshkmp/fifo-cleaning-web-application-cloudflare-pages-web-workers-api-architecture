@@ -21,7 +21,7 @@ pipeline {
                 sh '''
                     docker build \
                       -f apps/api/Dockerfile \
-                      -t fifo-api:jenkins \
+                      -t fifo-api:${IMAGE_TAG} \
                       .
                 '''
             }
@@ -33,7 +33,7 @@ pipeline {
                     docker build \
                       --build-arg NEXT_PUBLIC_BACKEND_URL=http://api:4000 \
                       -f apps/web/Dockerfile \
-                      -t fifo-web:jenkins \
+                      -t fifo-web:${IMAGE_TAG} \
                       .
                 '''
             }
