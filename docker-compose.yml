@@ -9,14 +9,14 @@ services:
       - fifo-postgres-data:/var/lib/postgresql/data
 
   api:
-    image: fifo-api:local
+    image: ${API_IMAGE:-fifo-api:local}
     ports:
       - "4000:4000"
     environment:
      DATABASE_URL: postgresql://postgres:Admin123@postgres:5432/fifo
 
   web:
-    image: fifo-web:local
+    image: ${WEB_IMAGE:-fifo-web:local}
     ports:
       - "3000:3000"
     environment:
