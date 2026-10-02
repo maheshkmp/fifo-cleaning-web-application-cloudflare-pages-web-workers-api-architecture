@@ -11,6 +11,7 @@ pipeline {
                       -t fifo-api:jenkins \
                       .
                 '''
+}
             }
         }
 
@@ -25,7 +26,35 @@ pipeline {
                 '''
             }
         }
+        
+        stage('Tag Images for GHCR') {
+    steps {
+        sh '''
+            docker tag fifo-api:jenkins \
+                ghcr.io/maheshkmp/fifo-api:latest
 
+            docker tag fifo-web:jenkins \
+                ghcr.io/maheshkmp/fifo-web:latest
+        '''
+    }
+
+stage('Test GHCR Login') {
+            steps {
+                withCredentials([
+                    usernamePassword(
+                        credentialsId: 'ghcr-credentials',
+                        usernameVariable: 'GHCR_USER',
+                        passwordVariable: 'GHCR_TOKEN'
+                    )
+                ]) {
+                    sh '''
+                        echo "$GHCR_TOKEN" | docker login ghcr.io \
+                            -u "$GHCR_USER" \
+                            --password-stdin
+                    '''
+                }
+            }
+        }
         stage('Run Application'){
             steps{
                 sh '''
@@ -50,22 +79,6 @@ pipeline {
             }
         }
 
-        stage('Test GHCR Login') {
-            steps {
-                withCredentials([
-                    usernamePassword(
-                        credentialsId: 'ghcr-credentials',
-                        usernameVariable: 'GHCR_USER',
-                        passwordVariable: 'GHCR_TOKEN'
-                    )
-                ]) {
-                    sh '''
-                        echo "$GHCR_TOKEN" | docker login ghcr.io \
-                            -u "$GHCR_USER" \
-                            --password-stdin
-                    '''
-                }
-            }
-        }
+    
     }
 }
