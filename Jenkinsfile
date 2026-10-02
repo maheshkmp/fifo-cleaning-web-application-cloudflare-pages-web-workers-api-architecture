@@ -72,8 +72,8 @@ pipeline {
         stage('Push Images to GHCR') {
             steps {
                 sh '''
-                    docker push ghcr.io/maheshkmp/fifo-api:latest
-                    docker push ghcr.io/maheshkmp/fifo-web:latest
+                    docker push ghcr.io/maheshkmp/fifo-api:${IMAGE_TAG}
+                    docker push ghcr.io/maheshkmp/fifo-web:${IMAGE_TAG}
                 '''
             }
         }
